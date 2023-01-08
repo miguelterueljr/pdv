@@ -1,0 +1,12 @@
+:root {
+  /*Declaração de minhas variaveis de cores*/
+  --lightgray: #ababab;
+  --black: #1e1e1e;
+  --white: #ffffff;
+  --primary: #de591f;
+  --secondary: #898989;
+  --sucess: #10a51f;
+  --danger: #de1f1f;
+  --overlay: #acacac80;
+  --boxShadow: rgba(0, 0, 0, 0.35);
+}

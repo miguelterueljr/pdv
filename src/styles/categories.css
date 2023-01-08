@@ -1,0 +1,22 @@
+.categories__list {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 32px;
+}
+
+.categories__item {
+  display: flex;   /*coloquei esse display flex para poder centralizar os elementos */
+  align-items: center;
+  gap: 16px;
+  background-color: transparent; /*deixa o fundo transparente*/
+  border: none;
+  color: var(--lightgray);  /*invocando a variavel de cor*/
+  font-size: 1.125rem; /* o root a fonte por padrao é 16px, assim a fonte aqui em px seria 18, faço 18 /16 */
+  cursor: pointer;
+}
+
+.categories__item:hover {
+  color: var(--white);
+}

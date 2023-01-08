@@ -1,0 +1,18 @@
+.overlay {
+  position: fixed; /*quero que meu overlay ocupe a tela inteira*/
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--overlay);
+  backdrop-filter: blur(2px);
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 0px 6px 6px var(--boxShadow);
+}

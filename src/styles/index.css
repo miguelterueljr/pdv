@@ -1,0 +1,15 @@
+@import url(./reset.css);
+
+/*thema de cores */
+@import url(./theme.css);
+
+@import url(./shared.css);
+
+/*estilizaçao do bloco categories*/
+@import url(./categories.css);
+
+/*bloco products*/
+@import url(./products.css);
+
+/*modal*/
+@import url(./modal.css);

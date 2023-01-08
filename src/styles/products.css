@@ -1,0 +1,37 @@
+.products {
+  list-style: none;
+  display: flex;
+  padding-top: 56px;
+  gap: 64px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--white);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-basis: 164px; /*diz pros flilhos que eu gostaria de ter 164px se for possivel, se nao for o flex ira recalcular*/
+}
+
+.product__text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  line-height: 1.25; /*sempre faco proporcional, divido o px por 16 e coloco sem unidade*/
+}
+
+.product__price {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.product__name {
+  font-size: 0.875rem;
+}
+
+
